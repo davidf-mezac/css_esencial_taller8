@@ -1,0 +1,582 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* ----------- navbar ------------ */
+header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 30vh;
+}
+.container{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.cont-logo{
+    width: 100%;
+    margin: 0 auto;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #231F20;
+}
+.cont-logo .filter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #231F20;
+}
+.cont-logo .filter img{
+    width: 20%;
+    height: 125px;
+    padding-top: 0px;
+}
+.cont-nav{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: #664427;
+}
+.cont-nav nav{
+    width: 100%;
+    height: 100%;
+}
+
+.cont-nav nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont-nav nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    height: 100%;
+    padding: 5px 20px 5px 20px;
+    color: rgb(252, 252, 252);
+    transition: all .5s;
+}
+.cont-nav nav ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+.cont-nav nav ul li:nth-child(1){
+    color: black;
+}
+/* ----------- end navbar ------------ */
+/*------container1-------*/
+main{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: 100%;
+    height: 450px;
+}
+
+.container1 .background{
+    background-image: url(https://www.bbva.com/wp-content/uploads/2020/11/FotoMascotasSeguro-1920x733.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+}
+.container1 .row{
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.container1 .row .col-60{
+    width: 100%;
+    height: 270px;
+}
+.container1 .row .col-60 h2{
+    margin-top: 90px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#231F20;
+}
+.container1 .row .col-60 p{
+    font-size: 3.5rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.container1 .row .col-60 button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 252, 252);
+    font-size: 1.5rem;
+    background-color: #664427;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 700;
+    transition: ease-in-out 1s;
+}
+.container1 .row .col-60 button:hover{
+    color: rgb(252, 252, 252);
+    background-color: #231F20;
+    font-weight: 800;
+    cursor: pointer;
+    transform: all 2s ease;
+}
+/*--------end container1----------*/
+/*--------container2---------*/
+.container2{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-top: 50px solid #664427;
+}
+.container2 .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -35px;
+}
+.container2 .row .col:nth-child(1){
+    width: 20%;
+    background-image: url('https://www.infobae.com/new-resizer/H9ocOrp6ylbZU_1SEnzFHC5TiOY=/768x576/filters:format(jpg):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/08/16132709/tendencias-mascotas-7.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.container2 .row .col:nth-child(2){
+    width: 20%;
+    background-image: url(https://amabisbtaigahotel.files.wordpress.com/2011/06/hotel_mascotas.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.container2 .row .col:nth-child(3){
+    width: 20%;
+    background-image: url('https://media.istockphoto.com/photos/pet-birthday-party-picture-id92130441');
+    background-position: center;
+    background-size: auto 100%;
+    height: 250px;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.container2 .row .col:nth-child(4){
+    width: 20%;
+    background-image: url('https://www.infobae.com/new-resizer/lsHncWg4E9MUkBZtHYY-CJ3v3-c=/768x768/filters:format(jpg):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/08/16131739/tendencias-mascotas-1.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    height: 250px;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.container2 .row .col h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.412);
+    text-align: center;
+}
+.container2 .row .col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #8a7b53;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+}
+/*---------end container2----------*/
+/*---------container3------------*/
+.container3{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #583a20;
+}
+.container3 .row h2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 20px;
+}
+.container3 .row h4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: white;
+}
+.container3 .row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container3 .row2 .col-30{
+    width: 20%;
+    justify-content: center;
+}
+.container3 .row2 .col-30 figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container3 .row2 .col-30 figure img{
+    width: 90%;
+    height: 250px;
+    border-radius: 60px/20px;
+}
+.container3 .row2 .col-30:nth-child(1) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.container3 .row2 .col-30:nth-child(2) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.container3 .row2 .col-30:nth-child(3) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.container3 .row2 .col-30 div a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0px auto;
+}
+.container3 .row2 .col-30 div p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0px auto;
+    color: rgb(224, 196, 153);
+}
+.container3 .row2 .col-30 div sub{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.container3 .row2 .col-30 div sub:hover{
+    color: #7ec74e;
+}
+/*---------end container3------*/
+/*--------container4-----------*/
+.container4{
+    width: 100%;
+    height: 450px;
+    object-position: center center;
+}
+.container4 .background{
+    background-image: url(https://www.findyello.com/wp/wp-content/uploads/2018/12/Foto-Editorial-Cuatro-preguntas-para-hacerse-antes-de-tener-una-mascota-2-min-1024x719.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    object-fit: cover;
+    /* max-width: 100%;
+    height: auto; */
+} 
+.container4 .background .row{
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.container4 .background .row .col-100{
+    margin: 0 auto;
+    justify-content: center;
+}   
+.container4 .background .row .col-100 h4{
+    justify-content: center;
+    text-align: center;
+    color: #664427;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+.container4 .background .row .col-100 p{
+    justify-content: center;
+    text-align: center;
+    color: #231F20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+.container4 .background .row .col-100 input{
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 50%;
+} 
+.container4 .background .row .col-100 button{
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.802);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 20%;
+    border-radius: 10px;
+}
+.container4 .background .row .col-100 button:hover{
+    background-color: azure;
+    color: black;
+}
+/*-------end container4--------*/
+/*-------container5---------*/
+.container5{
+    width: 100%;
+    height: 500px;
+}
+.container5 .background{
+    background-image: url(https://www.hogarmania.com/archivos/202010/articulos-mascotas-felices-7-juguetes-perro-XxXx80.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px; 
+}
+.container5 .back-color{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.container5 .row{
+    width: 40%;
+    height: 450px;
+    margin-left: 200px;
+    text-align: left ;
+    display: flex;
+    align-items: center;
+}
+.container5 .row .col-60{
+    width: 100%;
+    padding: 30px;
+}
+.container5 .row .col-60 h2{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #231F20;
+}
+.container5 .row .col-60 h4{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.container5 .row .col-60 p{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #231F20;
+    margin-bottom: 30px;
+}
+.container5 .row .col-60 button{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #664427;
+    font-weight: 600;
+    border-radius: 10px;
+    transition:  ease-in-out;
+}
+.container5 .row .col-60 button:hover{
+    background-color: rgb(255, 255, 255);
+    color:#664427;
+    cursor: pointer;
+    transform: translateX(50px);
+}
+/*------ end container5-----*/
+/* ----------- footer ------------ */
+.container-footer{
+    width: 100%;
+    height: 88vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#231F20;
+}
+.container-footer .filter{
+    width: 100%;
+    height: 100%;
+    background-color:#231F20;
+}
+.container-footer .filter .row:nth-child(1){
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container-footer .filter .row:nth-child(1) img{
+    width: 30%;
+    margin-top: auto;
+}
+.container-footer .filter .row:nth-child(2){
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+    width: 25%;
+    padding: 20px 10px;
+    margin-left: 40px;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+    list-style: none;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li{
+    padding: 5px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:nth-child(1){
+    color: #664427;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:nth-child(1){
+    color: #664427;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:hover{
+    color: #664427;
+    cursor: pointer;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+    width: 25%;
+    padding: 20px;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+    list-style: none;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li{
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:hover{
+    color: #664427;
+    cursor: pointer;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color:#664427;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
+    width: 60%;
+    padding: 7px 12px;
+    margin-top: 30px;
+    background-color: #664427;
+    color: black;
+    border: none;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button:hover{
+    background-color: black;
+    color: #664427;
+    cursor: pointer;
+}
+.container-footer .filter .row:nth-child(3){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#231F20;
+}
+.container-footer .filter .row:nth-child(3) img{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.container-footer .filter .row:nth-child(3) span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020202;
+    font-size: 10px;
+    margin-top: 10px;
+}
+/* ----------- end footer ------------ */
